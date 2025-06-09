@@ -20,4 +20,3 @@ always @(*) begin
 end
 
 endmodule
-

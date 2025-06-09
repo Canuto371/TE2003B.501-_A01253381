@@ -23,6 +23,7 @@ wire [31:0] SrcA;
 wire [31:0] readData;
 wire [31:0] alu_result;
 wire [2:0] alu_control;
+wire [31:0] PCNext;
 wire [1:0] immSrc;
 
 // Program Counter : En vez de utilizar una función externa, se realiza el cambio de PC a PCNext en el modulo main.
@@ -63,7 +64,7 @@ register_file RF_INST(
 );
 
 extend EX_INST(
-	.entrada(Instruction[31:7]),
+	.entrada(Instruction),
 	.immSrc(immSrc),
 	.immExt(immExt)
 );

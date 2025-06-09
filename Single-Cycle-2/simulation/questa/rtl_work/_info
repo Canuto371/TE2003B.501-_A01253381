@@ -1,0 +1,266 @@
+m255
+K4
+z2
+!s12c _opt
+Z0 !s99 nomlopt
+!s11f vlog 2023.3 2023.07, Jul 17 2023
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 dC:/Users/eliza/TE2003B.501-_A01253381/Single-Cycle-2/simulation/questa
+T_opt
+!s110 1749492456
+VmD@No`J3=JQ54njVKYJfB2
+04 7 4 work main_tb fast 0
+=1-e8fb1cbb6bbb-684722e7-38d-45b4
+R0
+!s12b OEM100
+!s124 OEM10U10 
+o-quiet -auto_acc_if_foreign -work work -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work +acc
+Z2 tCvgOpt 0
+n@_opt
+OL;O;2023.3;77
+vALU
+2C:/Users/eliza/TE2003B.501-_A01253381/Single-Cycle-2/ALU.v
+Z3 !s110 1749492454
+!i10b 1
+!s100 Y`@ZkA2=;=R8G0KAKRM_U1
+IV]X^^FJNjWkEVfHQ=26;K0
+R1
+w1749491989
+8C:/Users/eliza/TE2003B.501-_A01253381/Single-Cycle-2/ALU.v
+FC:/Users/eliza/TE2003B.501-_A01253381/Single-Cycle-2/ALU.v
+!i122 1
+L0 4 26
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 OL;L;2023.3;77
+r1
+!s85 0
+31
+Z6 !s108 1749492454.000000
+!s107 C:/Users/eliza/TE2003B.501-_A01253381/Single-Cycle-2/ALU.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/eliza/TE2003B.501-_A01253381/Single-Cycle-2|C:/Users/eliza/TE2003B.501-_A01253381/Single-Cycle-2/ALU.v|
+!i113 0
+Z7 o-vlog01compat -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z8 !s92 -vlog01compat -work work +incdir+C:/Users/eliza/TE2003B.501-_A01253381/Single-Cycle-2 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+n@a@l@u
+valu_decoder
+2C:/Users/eliza/TE2003B.501-_A01253381/Single-Cycle-2/alu_decoder.v
+R3
+!i10b 1
+!s100 J0zN4zF>m8;Q`[g[WAVjZ0
+IQKoDGQbh9azU4ZV52IeRo1
+R1
+w1749492055
+8C:/Users/eliza/TE2003B.501-_A01253381/Single-Cycle-2/alu_decoder.v
+FC:/Users/eliza/TE2003B.501-_A01253381/Single-Cycle-2/alu_decoder.v
+!i122 2
+L0 3 44
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/eliza/TE2003B.501-_A01253381/Single-Cycle-2/alu_decoder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/eliza/TE2003B.501-_A01253381/Single-Cycle-2|C:/Users/eliza/TE2003B.501-_A01253381/Single-Cycle-2/alu_decoder.v|
+!i113 0
+R7
+R8
+R2
+vcontrol_unit
+2C:/Users/eliza/TE2003B.501-_A01253381/Single-Cycle-2/control_unit.v
+R3
+!i10b 1
+!s100 :CF:MSe?5aHW@d@@Q8J0i1
+INRKRj>nO0;Y>Z;L421A`z2
+R1
+w1749491260
+8C:/Users/eliza/TE2003B.501-_A01253381/Single-Cycle-2/control_unit.v
+FC:/Users/eliza/TE2003B.501-_A01253381/Single-Cycle-2/control_unit.v
+!i122 3
+L0 6 46
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/eliza/TE2003B.501-_A01253381/Single-Cycle-2/control_unit.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/eliza/TE2003B.501-_A01253381/Single-Cycle-2|C:/Users/eliza/TE2003B.501-_A01253381/Single-Cycle-2/control_unit.v|
+!i113 0
+R7
+R8
+R2
+vdata_memory
+2C:/Users/eliza/TE2003B.501-_A01253381/Single-Cycle-2/data_memory.v
+R3
+!i10b 1
+!s100 L?T7OOKHQ5ZDl]^2_mKlg2
+I@:]4e?ChK`>oWUh;8jR[n1
+R1
+w1749491274
+8C:/Users/eliza/TE2003B.501-_A01253381/Single-Cycle-2/data_memory.v
+FC:/Users/eliza/TE2003B.501-_A01253381/Single-Cycle-2/data_memory.v
+!i122 4
+L0 5 36
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/eliza/TE2003B.501-_A01253381/Single-Cycle-2/data_memory.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/eliza/TE2003B.501-_A01253381/Single-Cycle-2|C:/Users/eliza/TE2003B.501-_A01253381/Single-Cycle-2/data_memory.v|
+!i113 0
+R7
+R8
+R2
+vextend
+2C:/Users/eliza/TE2003B.501-_A01253381/Single-Cycle-2/extend.v
+R3
+!i10b 1
+!s100 0S2?P=[PkE?]0GK3^A_[z0
+I[:3[Y_cYm7DE:lfF?;KL;2
+R1
+w1749491289
+8C:/Users/eliza/TE2003B.501-_A01253381/Single-Cycle-2/extend.v
+FC:/Users/eliza/TE2003B.501-_A01253381/Single-Cycle-2/extend.v
+!i122 5
+L0 3 30
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/eliza/TE2003B.501-_A01253381/Single-Cycle-2/extend.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/eliza/TE2003B.501-_A01253381/Single-Cycle-2|C:/Users/eliza/TE2003B.501-_A01253381/Single-Cycle-2/extend.v|
+!i113 0
+R7
+R8
+R2
+vinstruction_memory
+2C:/Users/eliza/TE2003B.501-_A01253381/Single-Cycle-2/instruction_memory.v
+Z9 !s110 1749492455
+!i10b 1
+!s100 >4hfh40O2UfWE;g<Wc<871
+I=4V7=AB1<VI77>zIA]0cY2
+R1
+w1749491301
+8C:/Users/eliza/TE2003B.501-_A01253381/Single-Cycle-2/instruction_memory.v
+FC:/Users/eliza/TE2003B.501-_A01253381/Single-Cycle-2/instruction_memory.v
+!i122 8
+L0 4 31
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/eliza/TE2003B.501-_A01253381/Single-Cycle-2/instruction_memory.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/eliza/TE2003B.501-_A01253381/Single-Cycle-2|C:/Users/eliza/TE2003B.501-_A01253381/Single-Cycle-2/instruction_memory.v|
+!i113 0
+R7
+R8
+R2
+vmain
+2C:/Users/eliza/TE2003B.501-_A01253381/Single-Cycle-2/main.v
+R3
+!i10b 1
+!s100 =34c[QTX;cWWmHMA>L3D<2
+IVZI4zmh_QEo7bn4;I5o;Q2
+R1
+w1749491954
+8C:/Users/eliza/TE2003B.501-_A01253381/Single-Cycle-2/main.v
+FC:/Users/eliza/TE2003B.501-_A01253381/Single-Cycle-2/main.v
+!i122 0
+L0 4 116
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/eliza/TE2003B.501-_A01253381/Single-Cycle-2/main.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/eliza/TE2003B.501-_A01253381/Single-Cycle-2|C:/Users/eliza/TE2003B.501-_A01253381/Single-Cycle-2/main.v|
+!i113 0
+R7
+R8
+R2
+vmain_decoder
+2C:/Users/eliza/TE2003B.501-_A01253381/Single-Cycle-2/main_decoder.v
+R3
+!i10b 1
+!s100 TT1R=`mc0z60]M_g45N8n0
+IPbBD7>T8eP^lmZ3Yda]7d2
+R1
+w1749491330
+8C:/Users/eliza/TE2003B.501-_A01253381/Single-Cycle-2/main_decoder.v
+FC:/Users/eliza/TE2003B.501-_A01253381/Single-Cycle-2/main_decoder.v
+!i122 6
+L0 4 92
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/eliza/TE2003B.501-_A01253381/Single-Cycle-2/main_decoder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/eliza/TE2003B.501-_A01253381/Single-Cycle-2|C:/Users/eliza/TE2003B.501-_A01253381/Single-Cycle-2/main_decoder.v|
+!i113 0
+R7
+R8
+R2
+vmain_tb
+2C:/Users/eliza/TE2003B.501-_A01253381/Single-Cycle-2/main_tb.v
+R9
+!i10b 1
+!s100 Ilk4L;3EjozGGQClYmQSn1
+I93<m1Ae6WC5V62WY:4Wn00
+R1
+w1749491382
+8C:/Users/eliza/TE2003B.501-_A01253381/Single-Cycle-2/main_tb.v
+FC:/Users/eliza/TE2003B.501-_A01253381/Single-Cycle-2/main_tb.v
+!i122 9
+L0 3 36
+R4
+R5
+r1
+!s85 0
+31
+!s108 1749492455.000000
+!s107 C:/Users/eliza/TE2003B.501-_A01253381/Single-Cycle-2/main_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/eliza/TE2003B.501-_A01253381/Single-Cycle-2|C:/Users/eliza/TE2003B.501-_A01253381/Single-Cycle-2/main_tb.v|
+!i113 0
+R7
+R8
+R2
+vregister_file
+2C:/Users/eliza/TE2003B.501-_A01253381/Single-Cycle-2/register_file.v
+R3
+!i10b 1
+!s100 i?B8ji81l0>;m[im:ToU[0
+IV7P`c19ZCXdmcnEPUVK3R0
+R1
+w1749491365
+8C:/Users/eliza/TE2003B.501-_A01253381/Single-Cycle-2/register_file.v
+FC:/Users/eliza/TE2003B.501-_A01253381/Single-Cycle-2/register_file.v
+!i122 7
+L0 5 33
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/eliza/TE2003B.501-_A01253381/Single-Cycle-2/register_file.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/eliza/TE2003B.501-_A01253381/Single-Cycle-2|C:/Users/eliza/TE2003B.501-_A01253381/Single-Cycle-2/register_file.v|
+!i113 0
+R7
+R8
+R2
